@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300;400;500;600;700&display=swap');
+html {
+    box-sizing:border-box;
+}
+
+body {
+    margin: 0;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+/**.eng {
+    visibility: hidden;
+}**/
+
+nav {
+    width: 100%;
+    background-color: blue;
+}
+
+a {
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(255, 255, 255, 0.800);
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    border-bottom: 1px solid white;
+    outline: none;
+}
+
+a:active {
+    color: #f1d6c6;
+    border-bottom: 1px solid #f1d6c6;
+}
+
+a.last {
+    color: #F3BD9E;
+    outline: solid 1px #F3BD9E;
+}
+
+a.last:hover {
+    border-bottom: none;
+}
+
+header {
+    width: 100%;
+    /**background-image: './images/IMG_1717.jpg';**/
+    background-color: teal;
+}
+
+h1 {
+    font-family: 'Cormorant', serif;
+    font-size: 61;
+    font-weight: 700;
+}
+
+.headline {
+    color: white;
+    letter-spacing: 0.1em;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+    color: #E09D77;
+}
