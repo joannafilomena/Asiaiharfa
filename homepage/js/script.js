@@ -1,4 +1,6 @@
-let buttonChange = document.querySelector(".change");
+
+
+/*let buttonChange = document.querySelector(".change");
 let paragraph = document.querySelector(".pl");
 
 
@@ -12,4 +14,4 @@ buttonChange.addEventListener("click", () => {
     } else { 
         paragraph.innerText = "To jest polski";
         buttonChange.innerText = "Zmień język" }
-});
+});*/

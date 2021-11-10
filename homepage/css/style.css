@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
 html {
     box-sizing:border-box;
 }
@@ -10,25 +12,48 @@ body {
 *, ::after, ::before {
     box-sizing: inherit;
 }
-/**.eng {
-    visibility: hidden;
-}**/
+
+header {
+    width: 100%;
+    background-image: url("IMG_1717-min.jpg");
+    background-position: top 20%;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
 
 nav {
-    width: 100%;
-    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__img {
+    margin-left: 90px;
+}
+
+.nav__links {
+    margin-right: 120px;
+    margin-top: 55px;
+}
+
+.logo {
+    max-width: 175px;
 }
 
 a {
     font-family: 'Open Sans', sans-serif;
     color: rgba(255, 255, 255, 0.800);
     text-decoration: none;
+    text-transform: uppercase;
+    vertical-align:middle;
+    margin-left: 26px;
+    padding: 5px;
 }
 
 a:hover {
     color: white;
     border-bottom: 1px solid white;
     outline: none;
+    transition-duration: 0.3s;
 }
 
 a:active {
@@ -39,31 +64,85 @@ a:active {
 a.last {
     color: #F3BD9E;
     outline: solid 1px #F3BD9E;
+    padding: 10px;
 }
 
 a.last:hover {
     border-bottom: none;
+    outline: solid 1px white;
+    color: white;
+    transition-duration: 0.3s;
+
 }
 
-header {
-    width: 100%;
-    /**background-image: './images/IMG_1717.jpg';**/
-    background-color: teal;
+a.last:active {
+    color: #f1d6c6;
+    outline-color: #f1d6c6;
+}
+
+.header {
+    margin-left: 120px;
 }
 
 h1 {
     font-family: 'Cormorant', serif;
-    font-size: 61;
     font-weight: 700;
+    margin-bottom: 15px;
 }
 
 .headline {
     color: white;
+    font-size: 61px;
     letter-spacing: 0.1em;
 }
 
 h2 {
     font-family: 'Open Sans', sans-serif;
-    font-weight: 200;
+    font-weight: 300;
     color: #E09D77;
+    font-size: 25px;
+    margin-top: 0;
+    margin-bottom:70px;
+}
+
+.header__Button {
+    background-color: #5E5F7A;
+    border: 1px solid rgba(255, 255, 255, 0);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    border-radius: 42em;
+    padding: 10px;
+    margin: 0 0 100px 0;
+    outline: none;
+}
+
+.header__moreLink {
+    color: black;
+    margin: 0;
+    text-transform: none;
+}
+
+.header__Button:hover {
+    transition-duration: 0.3s;
+    background-color: #5e5f7a00;
+    border: 1px solid #5e5f7a;
+}
+
+.header__moreLink:hover {
+    border:none;
+    color: rgba(255, 255, 255, 0.767);
+}
+
+.socialMedia__link {
+    margin:0;
+}
+
+.socialMedia__link:hover {
+    opacity:70%;
+}
+
+.socialMedia__icon {
+    max-width: 30px;
+    opacity: 80%;
+    margin-bottom: 30px;
 }
