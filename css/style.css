@@ -1,30 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap');
 
-html {
-    box-sizing:border-box;
-}
 
-body {
-    margin: 0;
-}
-
-*, ::after, ::before {
-    box-sizing: inherit;
-}
-
-header {
-    width: 100%;
-    background-image: url("IMG_1717-min.jpg");
-    background-position: top 20%;
-    background-repeat: no-repeat;
-    background-size:cover;
-}
-
-nav {
-    display: flex;
-    justify-content: space-between;
-}
 
 .nav__img {
     margin-left: 90px;
@@ -37,28 +14,6 @@ nav {
 
 .logo {
     max-width: 175px;
-}
-
-a {
-    font-family: 'Open Sans', sans-serif;
-    color: rgba(255, 255, 255, 0.800);
-    text-decoration: none;
-    text-transform: uppercase;
-    vertical-align:middle;
-    margin-left: 26px;
-    padding: 5px;
-}
-
-a:hover {
-    color: white;
-    border-bottom: 1px solid white;
-    outline: none;
-    transition-duration: 0.3s;
-}
-
-a:active {
-    color: #f1d6c6;
-    border-bottom: 1px solid #f1d6c6;
 }
 
 a.last {
@@ -84,25 +39,11 @@ a.last:active {
     margin-left: 120px;
 }
 
-h1 {
-    font-family: 'Cormorant', serif;
-    font-weight: 700;
-    margin-bottom: 15px;
-}
 
 .headline {
     color: white;
     font-size: 61px;
     letter-spacing: 0.1em;
-}
-
-h2 {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
-    color: #E09D77;
-    font-size: 25px;
-    margin-top: 0;
-    margin-bottom:70px;
 }
 
 .header__Button {
@@ -145,4 +86,23 @@ h2 {
     max-width: 30px;
     opacity: 80%;
     margin-bottom: 30px;
+}
+
+.offer {
+    background-color: #f3bd9e34;
+
+}
+
+.offer__element {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.offer__left, .offer__right {
+    width: 40%;
+}
+
+.offer__img {
+    max-width: 300px;
 }

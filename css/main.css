@@ -1,0 +1,43 @@
+
+h1 {
+    font-family: 'Cormorant', serif;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #E09D77;
+    font-size: 25px;
+    margin-top: 0;
+    margin-bottom:70px;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    line-height: 20px;
+}
+
+a {
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(255, 255, 255, 0.800);
+    text-decoration: none;
+    text-transform: uppercase;
+    vertical-align:middle;
+    margin-left: 26px;
+    padding: 5px;
+}
+
+a:hover {
+    color: white;
+    border-bottom: 1px solid white;
+    outline: none;
+    transition-duration: 0.3s;
+}
+
+a:active {
+    color: #f1d6c6;
+    border-bottom: 1px solid #f1d6c6;
+}

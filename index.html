@@ -11,12 +11,13 @@
     <meta name="author" content="Joanna Kamińska">
     <link rel="icon" href="images/Asia-i-harfa_logo podstawowe.png">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+    <link href="css/htmltags.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <script defer src="js/script.js"></script>
 </head>
 
 <body>
-
     <header>
         <nav>
             <div class="nav__img">
@@ -35,60 +36,44 @@
             <button class="header__Button"><a href="#offer" class="header__moreLink">Dowiedz się więcej</a></button>
             <div class="socialMedia"></div>
             <a class="socialMedia__link" target="_blank" rel="noreferrer nooopener" title="Facebook"
-                href="https://www.facebook.com/AsiaiHarfa"><img class="socialMedia__icon" alt="Facebook" src="images/facebook.png"></a>
+                href="https://www.facebook.com/AsiaiHarfa"><img class="socialMedia__icon" alt="Facebook"
+                    src="images/facebook.png"></a>
             <a class="socialMedia__link" target="_blank" rel="noreferrer nooopener" title="Instagram"
-                href="https://www.instagram.com/joanna_harp/"><img class="socialMedia__icon"
-                    src="images/instagram.png" alt="Instagram"></a>
+                href="https://www.instagram.com/joanna_harp/"><img class="socialMedia__icon" src="images/instagram.png"
+                    alt="Instagram"></a>
             <a class="socialMedia__link" target="_blank" rel="noreferrer nooopener" title="Tik Tok"
-                href="https://vm.tiktok.com/ZM8CUVFV3/"><img class="socialMedia__icon" src="images/tik-tok.png" alt="TikTok"></a>
+                href="https://vm.tiktok.com/ZM8CUVFV3/"><img class="socialMedia__icon" src="images/tik-tok.png"
+                    alt="TikTok"></a>
             <a class="socialMedia__link" target="_blank" rel="noreferrer nooopener" title="YouTube"
                 href="https://www.youtube.com/user/asiaaa33/videos?app=desktop"><img class="socialMedia__icon"
                     src="images/youtube.png" alt="YouTube"></a>
         </div>
     </header>
     <main>
-        <section id="about">
+        <section id="about" class="about">
             <h1>O mnie</h1>
-            Tu jest o mnie.
+            <p>Nazywam się Asia. Ukończyłam Akademię Muzyczną w Łodzi i od 7 lat gram na harfie zawodowo. Wygrałam
+                konkursy krajowe oraz międzynarodowe na harfie. Gram recitale solowe, w zespołach oraz projekty
+                orkiestrowe. Ponadto dużą częścią mojej działalności jest muzyka w tle na różnorodnych eventach oraz
+                oprawa muzyczna ślubów.</p>
         </section>
-        <section id="offer">
+        <section id="offer" class="offer">
             <h1>Oferta</h1>
-            <table>
-                <caption>Muzyka</caption>
-                <tbody>
-                    <tr>
-                        <td>OCZARUJMY
-                            GOŚCI</td>
-                        <td>Dźwięki harfy tworzą magiczną atmosferę. Oprawę muzyczną możemy zaplanować jako część
-                            artystyczną
-                            (np. koncert edukacyjny dla dzieci) lub muzykę w tle.</td>
-                    </tr>
-                    <tr>
-                        <td>WYBIERZMY
-                            REPERTUAR</td>
-                        <td>Jaka muzyka będzie odpowiednia?
-                            -muzyka klasyczna, np. Ave Maria
-                            -muzyka rozrywkowa, np. Ed Sheeran
-                            -muzyka filmowa, np. Piękna i Bestia
-                            -muzyka folkowa
-                            -utwory na życzenie</td>
-                    </tr>
-                    <tr>
-                        <td>DOPASUJMY INSTRUMENT</td>
-                        <td>Każda harfa ma inny charakter:
-                            -duża harfa pedałowa klasyczna
-                            -harfa haczykowa neoceltycka
-                            -harfa elektryczna</td>
-                    </tr>
-                    <tr>
-                        <td>ZAPROŚMY
-                            INNYCH MUZYKÓW</td>
-                        <td>Możemy urozmaicić muzykę zapraszając do zespołu innego instrumentalistę, wokalistę czy
-                            artystę.
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
+            <div class="offer__element">
+                <div class="offer__left">
+                    <img src="images/offer1.jpg" alt="asiaiharfa" class="offer__img">
+                </div>
+                <div class="offer__right">
+                    <h3>OCZARUJMY
+                        GOŚCI
+                    </h3>
+                    <p>Dźwięki harfy tworzą magiczną
+                        atmosferę. Oprawę muzyczną możemy
+                        zaplanować jako część artystyczną lub
+                        muzykę w tle.
+                    </p>
+                </div>
+            </div>
         </section>
         <section id="offer">
             <h1>Oferta</h1>
@@ -98,7 +83,7 @@
         </section>
     </main>
     <footer id="contact">
-        adres kontakt <a hrer="mailto:asiaiharfa@gmail.com">Mail</a>
+        adres kontakt <a href="mailto:asiaiharfa@gmail.com">Mail</a>
         <form action="mailto:asiaiharfa@gmail.com" method="post">
             <label>
                 <input name="name" placeholder="Imię i nazwisko" required>

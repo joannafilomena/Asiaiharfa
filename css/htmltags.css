@@ -1,0 +1,28 @@
+html {
+    box-sizing:border-box;
+}
+
+body {
+    margin: 0;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+header {
+    width: 100%;
+    background-image: url("IMG_1717-min.jpg");
+    background-position: top 20%;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+section {
+    padding: 30px 90px;
+}
