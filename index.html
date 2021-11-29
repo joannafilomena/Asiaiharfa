@@ -11,7 +11,7 @@
     <meta name="author" content="Joanna Kamińska">
     <link rel="icon" href="images/Asia-i-harfa_logo podstawowe.png">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
-    <link href="css/htmltags.css" rel="stylesheet">
+    <link href="css/sections.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <script defer src="js/script.js"></script>
@@ -21,16 +21,16 @@
     <header>
         <nav>
             <div class="nav__img">
-                <img class="logo" alt="logo" src="images/Asia-i-harfa_logo podstawowebiale.png">
+                <img class="logo fadeInTop" alt="logo" src="images/Asia-i-harfa_logo podstawowebiale.png">
             </div>
-            <div class="nav__links">
+            <div class="nav__links fadeInRight">
                 <a href="#about">O mnie</a>
                 <a href="#offer">Oferta</a>
                 <a href="#video">Video</a>
                 <a href="#contact" class="last">Kontakt</a>
             </div>
         </nav>
-        <div class="header">
+        <div class="header  fadeInLeft">
             <h1 class="headline">Joanna Kamińska</h1>
             <h2>Oprawa muzyczna na harfie</h2>
             <button class="header__Button"><a href="#offer" class="header__moreLink">Dowiedz się więcej</a></button>
@@ -59,13 +59,12 @@
         </section>
         <section id="offer" class="offer">
             <h1>Oferta</h1>
-            <div class="offer__element">
-                <div class="offer__left">
+            <div class="offer__element first">
+                <div class="offer__left animated">
                     <img src="images/offer1.jpg" alt="asiaiharfa" class="offer__img">
                 </div>
-                <div class="offer__right">
-                    <h3>OCZARUJMY
-                        GOŚCI
+                <div class="offer__right animated">
+                    <h3>Oczarujmy gości
                     </h3>
                     <p>Dźwięki harfy tworzą magiczną
                         atmosferę. Oprawę muzyczną możemy
@@ -74,15 +73,66 @@
                     </p>
                 </div>
             </div>
+            <div class="offer__element second">
+                <div class="offer__left animated">
+                    <h3>Wybierzmy repertuar
+                    </h3>
+                    <p>Jaka muzyka będzie odpowiednia?<br>
+                        -muzyka klasyczna, np. Ave Maria<br>
+                        -muzyka rozrywkowa, np. Ed Sheeran<br>
+                        -muzyka filmowa, np. Piękna i Bestia<br>
+                        -muzyka folkowa<br>
+                        -utwory na życzenie
+                    </p>
+                </div>
+                <div class="offer__right animated">
+                    <img src="images/offer2.jpg" alt="asiaiharfa" class="offer__img">
+                </div>
+            </div>
+            <div class="offer__element third">
+                <div class="offer__left animated">
+                    <img src="images/offer3.jpg" alt="asiaiharfa" class="offer__img">
+                </div>
+                <div class="offer__right animated">
+                    <h3>Dopasujmy instrument
+                    </h3>
+                    <p>Każda harfa ma inny charakter:<br>
+                        -duża harfa pedałowa klasyczna<br>
+                        -harfa haczykowa neoceltycka<br>
+                        -harfa elektryczna
+                    </p>
+                </div>
+            </div>
+            <div class="offer__element fourth">
+                <div class="offer__left animated">
+                    <h3>Zaprośmy innych muzyków
+                    </h3>
+                    <p>Możemy urozmaicić muzykę
+                        zapraszając do zespołu innego
+                        instrumentalistę, wokalistę czy
+                        artystę.
+                    </p>
+                </div>
+                <div class="offer__right animated">
+                    <img src="images/offer4.jpg" alt="asiaiharfa" class="offer__img">
+                </div>
+            </div>
         </section>
-        <section id="offer">
-            <h1>Oferta</h1>
-        </section>
-        <section id="video">
+        <section id="video" class="video">
             <h1>Video</h1>
+            <div class="video__element">
+                <div class="video__left"><iframe src="https://www.youtube.com/embed/pdOjKiM8JKI"
+                        title="The 5th Melody of the Night on Harp"></iframe></div>
+                <div class="video__right"><iframe src="https://www.youtube.com/embed/v4_YsHrZta4"
+                        title="Silent Night on Harp"></iframe></div>
+            </div>
+            <div class="video__element">
+                <div class="video__left"><iframe width="560" height="315" src="https://www.youtube.com/embed/GjDIHS62jqU" title="Marcel Tournier - Sonatine on harp"></iframe></div>
+                <div class="video__right"><iframe width="560" height="315" src="https://www.youtube.com/embed/NkeuM14AokA" title="Gabriel's Oboe Duo"></iframe></div>
+            </div>
         </section>
     </main>
-    <footer id="contact">
+    <footer id="contact" class="contact">
         adres kontakt <a href="mailto:asiaiharfa@gmail.com">Mail</a>
         <form action="mailto:asiaiharfa@gmail.com" method="post">
             <label>
